@@ -1,0 +1,26 @@
+/* FILE: main/custom-styles/__branding.scss */
+
+//
+// Max logo image dimensions
+//
+
+
+
+
+
+.site-title,
+.custom-logo {
+	color: map_get( $customize_options, 'color_header_headings' );
+	color: var(--color_header_headings);
+}
+
+.custom-logo {
+
+	&,
+	.has-scrolled:not(.no-js) &,
+	.fl-builder-edit & {
+		max-height: 50px;
+		max-height: var(--custom_logo_height);
+	}
+
+}

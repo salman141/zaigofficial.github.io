@@ -1,0 +1,18 @@
+/* FILE: print/__header.scss */
+
+//
+// Header styles
+//
+
+
+
+
+
+.site-header,
+.masthead-placeholder {
+	@extend .noprint;
+}
+
+.skip-link-list {
+	@extend .noprint;
+}

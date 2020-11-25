@@ -1,0 +1,66 @@
+/* FILE: shortcodes/__staff.scss */
+
+//
+// Posts: Staff
+//
+// For common custom post types styles see `/assets/scss/shortcodes/_posts.scss`.
+//
+
+
+
+
+
+.type-wm_staff {
+
+	.posts & {
+
+		// Summary
+
+			.entry-content {
+
+				.button {
+					margin: ( $golden_major +em ) 0 0;
+
+					.entry-subtitle {
+						display: none;
+					}
+
+				}
+
+			}
+
+			.taxonomy + .entry-content {
+				margin-top: 1em;
+			}
+
+
+
+		// Taxonomies
+
+			.taxonomy {
+				font-size: 1em - $golden_minor / 2;
+
+				&-label {
+					@extend %sc_uppercase_letter_spaced;
+					margin-#{$right}: $golden_minor +em; // {{RTL}}
+					font-size: 1em - $golden_minor / 2;
+				}
+
+			}
+
+	}
+
+
+
+	// Summary hiding
+
+		.summary {
+
+			.hide-excerpt &,
+			.hide-summary & {
+				display: none;
+			}
+
+		}
+
+}

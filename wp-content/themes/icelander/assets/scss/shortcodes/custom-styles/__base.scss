@@ -1,0 +1,29 @@
+/* FILE: shortcodes/custom-styles/__base.scss */
+
+//
+// Basic shortcodes colors
+//
+
+
+
+
+
+// Accent color
+
+	// Accordion
+	.wm-accordion .is-active .wm-item-title,
+	.wm-accordion .wm-item-title:hover,
+	// Tabs
+	.wm-tab-links .active a,
+	.wm-tab-links .is-active a,
+	.wm-tab-links a:hover,
+	.wm-tour-nav,
+	// Posts filter
+	.wm-filter a:hover,
+	.wm-filter .active a,
+	.wm-filter .is-active a,
+	.fl-builder-content .wm-filter .active a,
+	.fl-builder-content .wm-filter .is-active a {
+		@extend %accent_colors;
+		border-color: transparent; //*
+	}

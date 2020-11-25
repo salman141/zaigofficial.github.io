@@ -1,0 +1,28 @@
+/* FILE: shortcodes/custom-styles/__message.scss */
+
+//
+// Message colors
+//
+
+
+
+
+
+.wm-message {
+
+	@each $color in ( 'error', 'info', 'success', 'warning' ) {
+
+		&.color-#{$color} {
+			background: transparent; //*
+			color: inherit; //*
+			border-color: map_get( $colors, '#{$color}_background' ); //*
+
+			&[class*="icon-"]::before {
+				color: map_get( $colors, '#{$color}_background' ); //*
+			}
+
+		}
+
+	}
+
+}

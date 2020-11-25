@@ -1,0 +1,159 @@
+/* FILE: shortcodes/_content-module.scss */
+
+//
+// Content Module
+//
+
+
+
+
+
+.wm-content-module {
+
+	// Item
+
+		&-item {
+
+			.item-border & {
+				padding: $golden +em;
+				border-width: 1px;
+				border-bottom-width: 2px;
+				border-style: solid;
+				transition: transform ( $small_animation_speed +s );
+
+				&:hover,
+				&.focus {
+					transform: translateY( -4px );
+				}
+
+				@include responsive( map_get( $breakpoint, 'm' ) ) {
+					padding: 2em;
+				}
+
+				&:not(.wm-iconbox-module) {
+
+					.image {
+						margin: $golden * -1em;
+						margin-bottom: $golden +em;
+
+						@include responsive( map_get( $breakpoint, 'm' ) ) {
+							margin: -2em;
+							margin-bottom: 2em;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+
+
+	// Image & Icon
+
+		.image {
+			margin-bottom: $golden +rem;
+
+			@include responsive( map_get( $breakpoint, 'm' ) ) {
+				margin-bottom: 2rem;
+			}
+
+		}
+
+
+
+	// Title
+
+		.title {
+			margin-bottom: $golden +em;
+
+			.hide-title & {
+				display: none; // Simply use a heading in Content Module content
+			}
+
+			h2,
+			h3,
+			h4 {
+				@extend %sc_uppercase_letter_spaced;
+				font-size: nth( map_get( $h_tags_setup, 'h4, .h4' ), 1 ) +em;
+			}
+
+		}
+
+
+
+	// More link
+
+		.more-link {
+			margin-top: $golden +em;
+
+			$button_font_size: 1 - $golden_minor / 2; // In em
+			$button_font_size_compensation: 1 / $button_font_size;
+
+			a {
+				@extend %sc_uppercase_letter_spaced;
+				display: inline-block;
+				padding: ( ( $golden_major * 1em ) * $button_font_size_compensation ) 2em;
+				text-decoration: none;
+				font-size: $button_font_size +rem;
+				font-weight: 700;
+				border: 2px solid currentColor;
+				transition: background ( $large_animation_speed +s ),
+				            color ( $large_animation_speed +s ),
+				            border-color ( $small_animation_speed +s ),
+				            box-shadow ( $small_animation_speed +s ),
+				            opacity ( $small_animation_speed +s );
+
+				@include haf() {
+					text-decoration: none;
+					border-color: transparent;
+				}
+
+				&:hover {
+					outline: 0;
+				}
+
+				&:focus {
+					outline: thin dashed;
+				}
+
+				&:active {
+					outline: 0;
+					opacity: .9;
+				}
+
+			}
+
+		}
+
+}
+
+.more-link {
+
+	.hide-more-link &,
+	.hide-more-button & {
+		display: none; // Inaccessibly - the title and icon/image is still linkable.
+	}
+
+}
+
+
+
+// Iconbox
+
+	.wm-iconbox-module {
+
+		.image {
+			line-height: 1;
+			font-size: power( 1 + $golden_minor, 4 ) +em;
+			vertical-align: top;
+
+			@include responsive( map_get( $breakpoint, 'xl' ) ) {
+				font-size: power( 1 + $golden_minor, 5 ) +em;
+			}
+
+		}
+
+	}

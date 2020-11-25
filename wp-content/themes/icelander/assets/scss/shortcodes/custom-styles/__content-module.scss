@@ -1,0 +1,25 @@
+/* FILE: shortcodes/custom-styles/__content-module.scss */
+
+//
+// Content module colors
+//
+// You don't have to use `sc_` prefix here as it is being loaded in `custom-style.scss` file.
+//
+
+
+
+
+
+// General
+
+	.wm-content-module {
+
+		.image {
+			@extend %accent_color;
+		}
+
+		.more-link a {
+			@extend %button_default_colors;
+		}
+
+	}

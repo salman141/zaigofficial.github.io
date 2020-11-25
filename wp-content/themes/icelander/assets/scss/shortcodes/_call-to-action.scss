@@ -1,0 +1,69 @@
+/* FILE: shortcodes/_call-to-action.scss */
+
+//
+// Call to Action
+//
+
+
+
+
+
+.wm-call-to-action {
+
+	@include responsive( map_get( $breakpoint, 'l' ) ) {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+
+	&-element {
+		flex: 0 1 auto;
+		text-align: center;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			text-align: inherit;
+			vertical-align: middle;
+		}
+
+		h2,
+		h3,
+		h4 {
+			margin-bottom: 0;
+		}
+
+		p {
+			margin: 1em 0 0;
+		}
+
+	}
+
+
+
+	&-caption {
+
+		h2,
+		h3,
+		h4 {
+			@extend %sc_uppercase_letter_spaced;
+			font-size: 1em + $golden_minor / 2;
+		}
+
+	}
+
+
+
+	&-button {
+		margin-top: $golden +rem;
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			margin-#{$left}: 8%; // {{RTL}}
+			margin-top: 0;
+			text-align: $right; // {{RTL}}
+			white-space: nowrap;
+		}
+
+	}
+
+}

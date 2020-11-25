@@ -1,0 +1,111 @@
+/* FILE: shortcodes/__item.scss */
+
+//
+// Item, required for other shortcodes
+//
+
+
+
+
+
+.wm-item {
+
+	&-title {
+
+		i,
+		span {
+			margin-#{$right}: $golden_major +em; // {{RTL}}
+		}
+
+	}
+
+
+
+	// Accordion
+
+		.wm-accordion & {
+			margin-bottom: 1em;
+			transition: padding ( $small_animation_speed +s );
+
+			&-title {
+				position: relative;
+				padding: 1rem ( $golden +rem );
+				padding-#{$right}: $golden * 2 + $golden_minor +rem; // {{RTL}}
+				margin: 0;
+				font-size: 1em;
+				font-weight: 700;
+				color: inherit;
+				border: 2px solid currentColor;
+				cursor: pointer;
+				transition: all ( $small_animation_speed +s );
+
+				@include responsive( map_get( $breakpoint, 'm' ) ) {
+					padding-#{$left}: 2rem; // {{RTL}}
+				}
+
+				&::after {
+					@extend %sc_genericon;
+					content: '\f431';
+					position: absolute;
+					#{$right}: $golden +rem; // {{RTL}}
+					top: 50%;
+					transform: translateY( -50% );
+
+					@include in( '^.is-active' ) {
+						content: '\f432';
+					}
+
+				}
+
+				i,
+				span {
+
+					&::before {
+						margin-top: $golden_minor / 2 * -1em;
+						line-height: $golden_major;
+						font-size: $golden +em;
+						vertical-align: middle;
+					}
+
+				}
+
+			}
+
+			&-content {
+				padding: $golden +rem;
+
+				@include responsive( map_get( $breakpoint, 'm' ) ) {
+					padding: 2rem;
+				}
+
+			}
+
+		}
+
+
+
+	// Tabs
+
+		.wm-tabs & {
+			margin: 0;
+		}
+
+		.layout-top &,
+		.layout-left &,
+		.layout-right & {
+			padding: 2em 0;
+		}
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+
+			.layout-left & {
+				padding: 0 0 2em 2em;
+			}
+
+			.layout-right & {
+				padding: 0 2em 2em 0;
+			}
+
+		}
+
+}

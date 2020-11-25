@@ -1,0 +1,75 @@
+/* FILE: main/menu/__menu-footer.scss */
+
+//
+// Footer menu
+//
+
+
+
+
+
+.footer-menu {
+	flex: 0 1 auto;
+	text-transform: uppercase;
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin-#{$right}: $golden_major +rem; // {{RTL}}
+	}
+
+	a {
+		@extend %font_weight_400;
+		padding: ( $golden_major +rem ) ( $golden_minor +rem );
+		text-decoration: none;
+		border: 0 solid transparent;
+		border-top-width: 2px;
+		transition: border-color ( $small_animation_speed +s );
+	}
+
+	ul:hover .current-menu-item a {
+		border-color: inherit;
+	}
+
+	a:hover,
+	a:focus,
+	a:active,
+	.current-menu-item a,
+	ul .current-menu-item a:hover {
+		border-color: currentColor;
+	}
+
+	&-inner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: ( $golden +rem ) 0;
+		line-height: 3rem; // To center child elements vertically
+
+		@include responsive( map_get( $breakpoint, 'm' ) ) {
+			padding: ( power( $golden, 2 ) +rem ) 0;
+		}
+
+		nav,
+		form {
+			flex: 0 1 auto;
+		}
+
+	}
+
+}
+
+
+
+.footer-area-footer-menu {
+
+	.breadcrumbs-container + & {
+		margin-top: -$golden +rem;
+	}
+
+}

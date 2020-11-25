@@ -1,0 +1,98 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Valen Extra\n"
+"POT-Creation-Date: 2018-11-23 11:20+0700\n"
+"PO-Revision-Date: 2018-11-23 11:20+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: dsk-extra.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dsk-extra.php:34 dsk-extra.php:35 dsk-extra.php:45 dsk-extra.php:73
+msgid "Post WCode"
+msgstr ""
+
+#: dsk-extra.php:36 dsk-extra.php:37
+msgid "Add New Post WCode"
+msgstr ""
+
+#: dsk-extra.php:38
+msgid "Edit Post WCode"
+msgstr ""
+
+#: dsk-extra.php:39
+msgid "New Post WCode"
+msgstr ""
+
+#: dsk-extra.php:40
+msgid "View Post WCode"
+msgstr ""
+
+#: dsk-extra.php:41
+msgid "Search Post WCode"
+msgstr ""
+
+#: dsk-extra.php:42
+msgid "No Post WCode found"
+msgstr ""
+
+#: dsk-extra.php:43
+msgid "No Post WCode found in Trash"
+msgstr ""
+
+#: dsk-extra.php:44
+msgid "Parent Post WCode:"
+msgstr ""
+
+#: dsk-extra.php:74
+msgid "Display somes shortcodes via slug of Post WCode"
+msgstr ""
+
+#: dsk-extra.php:106 dsk-extra.php:187
+msgid "Title:"
+msgstr ""
+
+#: dsk-extra.php:112
+msgid "Slug of Post WCode:"
+msgstr ""
+
+#: dsk-extra.php:123
+msgid "SNS VALEN Vertical Menu"
+msgstr ""
+
+#: dsk-extra.php:124
+msgid "Add a vertical menu to your sidebar."
+msgstr ""
+
+#: dsk-extra.php:191
+msgid "Select Menu:"
+msgstr ""
+
+#: dsk-extra.php:193
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Valen Extra"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://snstheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extra some featured for Valen theme."
+msgstr ""

@@ -1,0 +1,81 @@
+/* FILE: main/header/__sticky.scss */
+
+//
+// Sticky header displayed when scrolling up
+//
+// Yes, we could simplify the styles using header position absolute
+// where appropriate, but that would create glitches on page scroll
+// as CSS position can not be smoothly transitioned.
+//
+
+
+
+
+
+@include responsive_minmax( map_get( $breakpoint, 'xl' ), map_get( $breakpoint, 's' ), 'min-width', 'min-height' ) {
+
+	.scrolled {
+
+		&-past-masthead {
+
+			.site-header {
+				position: fixed;
+				top: -1px;
+				z-index: 99;
+				opacity: 0;
+				transform: translate3d( 0, -120%, 0 ); // Using `translate3d` for triggering the performance improvement in browser
+
+				&-content {
+					padding-top: $golden_major +em;
+					padding-bottom: $golden_major +em;
+				}
+
+			}
+
+			&.admin-bar .site-header {
+				margin-top: 32px;
+			}
+
+			.header-widgets-container {
+				display: none;
+			}
+
+
+
+			// When scrolling up
+
+				&-offset.scrolled-up .site-header {
+					opacity: 1;
+					transform: translate3d( 0, 0, 0 );
+
+					&-content .social-links .back-to-top-link {
+						display: inline-block;
+					}
+
+				}
+
+
+
+			// Smooth out sticky header animation
+
+				&.scrolled-up,
+				&-offset {
+
+					.site-header {
+						transition: transform ( $large_animation_speed +s ),
+						            opacity ( $large_animation_speed +s );
+					}
+
+				}
+
+		}
+
+	}
+
+}
+
+.masthead-placeholder {
+	@include responsive( map_get( $breakpoint, 'xl' ), 'max-width' ) {
+		height: auto !important;
+	}
+}

@@ -1,0 +1,96 @@
+/* FILE: main/content/__loop.scss */
+
+//
+// Posts list (loop) styles
+//
+
+
+
+
+
+.posts {
+
+	.entry {
+		position: relative;
+		padding: $golden +em;
+		margin: 0 0 2rem;
+		border: 1px solid transparent;
+		border-bottom-width: 2px;
+		transition: transform ( $small_animation_speed +s );
+
+		&:hover,
+		&.focus {
+			border-color: inherit;
+			transform: translateY( -4px );
+		}
+
+		@include responsive( map_get( $breakpoint, 'm' ) ) {
+			padding: 2em;
+		}
+
+		&-content {
+
+			p {
+				margin-bottom: 1em;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+
+
+// Imports
+
+	@import '_posts-layout-list';
+
+	@import '_posts-layout-masonry';
+
+	@import '_posts-layout-minimal';
+
+
+
+// Search results list
+
+	.posts {
+
+		.search-results form + & {
+			margin-top: $golden * 3em;
+		}
+
+		.search-results & {
+
+			.entry {
+				border-color: inherit;
+			}
+
+		}
+
+
+
+		// Page post type in search results list
+
+			.type-page .entry-summary {
+				margin-bottom: 0;
+			}
+
+	}
+
+
+
+// More link
+
+	.link-more {
+
+		.entry-summary + & {
+			margin-top: 1rem;
+		}
+
+	}

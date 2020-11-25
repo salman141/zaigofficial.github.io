@@ -1,0 +1,46 @@
+/* FILE: woocommerce/sidebar/__product.scss */
+
+//
+// Product widgets area
+//
+
+
+
+
+
+.product-widgets {
+	@extend %wc_horizontal_widget_area;
+
+	&-container {
+		margin-bottom: $padding_vertical;
+
+		@include responsive( map_get( $breakpoint, 'm' ), 'max-width' ) {
+			// Preventing mobile horizontal scrolling
+			// (Required for horizontal_widget_area.)
+			overflow: hidden;
+		}
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			margin-bottom: $golden_major * $padding_vertical / 2 + $padding_vertical;
+		}
+
+	}
+
+	&-inner {
+		@extend %wc_content_width;
+		padding-left: 8%;
+		padding-right: 8%;
+
+		@include responsive( map_get( $breakpoint, 'm' ) ) {
+			padding-left: 6%;
+			padding-right: 6%;
+		}
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			padding-left: 4%;
+			padding-right: 4%;
+		}
+
+	}
+
+}

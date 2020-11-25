@@ -1,0 +1,91 @@
+/* FILE: main/content/__posts-layout-minimal.scss */
+
+//
+// Posts list minimal layout styles
+//
+
+
+
+
+
+.posts-layout-minimal {
+
+	.type-post {
+		@extend .clearfix;
+		padding: ( power( 1 + $golden_minor, 3 ) +em ) 0;
+		margin: 0;
+		border: 0 solid;
+		border-top-width: 1px;
+		border-color: inherit;
+
+		&:hover,
+		&.focus {
+			transform: none;
+		}
+
+		@include responsive( map_get( $breakpoint, 'l' ) ) {
+			padding: ( power( 1 + $golden_minor, 5 ) +em ) 24%;
+			padding-#{$left}: 14%; // {{RTL}}
+		}
+
+		&:first-child {
+			padding-top: 0;
+			border-top-width: 0;
+
+			.entry-meta {
+				top: 0;
+			}
+
+		}
+
+		.entry {
+
+			&-media {
+				display: none;
+			}
+
+			@include responsive( map_get( $breakpoint, 'l' ) ) {
+
+				&-meta {
+					position: absolute;
+					width: 20%;
+					#{$right}: 0; // {{RTL}}
+					top: power( 1 + $golden_minor, 5 ) +rem;
+					margin: 0;
+					font-size: inherit;
+
+					&-element {
+						display: block;
+						margin: 0;
+					}
+
+				}
+
+				&-date {
+					position: absolute;
+					width: 50%;
+					#{$left}: -400%; // {{RTL}}
+					line-height: $golden +rem;
+					text-transform: uppercase;
+					font-size: 1em + $golden_minor / 2;
+					font-weight: 300;
+
+					.entry-meta-description {
+						@extend %screen_reader_hiding;
+					}
+
+				}
+
+			}
+
+			&-title {
+				text-transform: none;
+				letter-spacing: 0;
+				font-size: nth( map_get( $h_tags_setup, 'h2, .h2' ), 1 ) +em;
+			}
+
+		}
+
+	}
+
+}

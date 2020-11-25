@@ -1,0 +1,116 @@
+/* FILE: woocommerce/main/__global.scss */
+
+//
+// Global styles
+//
+
+
+
+
+
+// Basic elements
+
+	.woocommerce {
+
+		ins {
+			text-decoration: none;
+		}
+
+		mark {
+
+			&,
+			#page & {
+				margin: 0;
+				font-weight: 700;
+				background: none;
+				color: inherit;
+				box-shadow: none;
+				box-decoration-break: slice;
+			}
+
+		}
+
+		// WC 3.0-
+		&-checkout .woocommerce > h2,
+		&-checkout header h2,
+		&-checkout header h3,
+		&-MyAccount-content > h2,
+		&-MyAccount-content header h2,
+		&-MyAccount-content header h3,
+		// WC 3.0+
+		&-column__title,
+		section > h2:first-child,
+		.col2-set > div > h3:first-child {
+			@extend %wc_widget_title;
+		}
+
+	}
+
+
+
+// Archive titles
+
+	.woocommerce-products-header {
+
+		.page-title {
+			margin-bottom: power( $golden, 2 ) +rem;
+		}
+
+		.has-intro & .page-title {
+			@extend %wc_screen_reader_hiding;
+		}
+
+	}
+
+
+
+// Edit link in titles
+
+	.title .edit {
+		@extend %wc_uppercase_letter_spaced;
+		display: inline-block;
+		padding: ( $golden_minor +em ) 1em;
+		margin-bottom: 1em;
+		font-size: 1rem - $golden_minor / 2;
+		font-weight: 700;
+		text-decoration: none;
+		border: 2px solid;
+		transition: background ( $small_animation_speed +s ),
+		            color ( $small_animation_speed +s ),
+		            border-color ( $small_animation_speed +s );
+
+		@include haf() {
+			text-decoration: none;
+		}
+
+		&::before {
+			@extend %wc_genericon;
+			@extend %wc_icon_vertical_align_middle;
+			content: '\f411';
+			margin-#{$right}: $golden_minor +em; // {{RTL}}
+		}
+
+	}
+
+
+
+// Buttons
+
+	.wc-forward,
+	.woocommerce-Button--next {
+
+		&::after {
+			@include rtl_property( content, '\00bb', '\00ab' ); // {{RTL}}
+			margin-#{$left}: $golden_major +em; // {{RTL}}
+		}
+
+	}
+
+	.woocommerce-Button--previous {
+
+		&::before {
+			@include rtl_property( content, '\00ab', '\00bb' ); // {{RTL}}
+			margin-#{$right}: $golden_major +em; // {{RTL}}
+		}
+
+	}

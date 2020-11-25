@@ -1,0 +1,88 @@
+#sns_cpanel{
+	position: fixed; top: 0px; left: -300px; width: 300px; height: 100%; z-index: 999; background: #FFF; padding: 30px 0; 
+	@include transition(all 0.25s ease-out 0s);
+	body.admin-bar & {
+		top: 32px; height: calc(100% - 32px);
+		@media(max-width: $screen-md-min){
+			top: 46px; height: calc(100% - 46px);
+		}
+		@media(max-width: $screen-phone){ top: 0px; height: 100%; }
+	}
+	@media(max-width: $screen-xs-max){
+		display: none;
+	}
+	& + .overlay{
+		content: "";display: none;position: fixed; @include square(100%);top: 0; left: 0; right: 0; bottom: 0; z-index: 998; background: rgba(0,0,0,0.5);
+		@include transition(none); cursor:  e-resize; cursor: url(#{$base-url}/close-white.png), auto;
+	}
+	&.open{
+		left: 0px; box-shadow: 0 0 6px rgba(0,0,0,0.4); 
+		#sns_cpanel_btn{
+			box-shadow: none; @include opacity(0.2);
+		}
+		& + .overlay{
+			display: block;
+		}
+	}
+	#sns_cpanel_btn{
+		position: absolute; right: -44px; top: calc(50% - 44px); background: #f9f9f9; text-align: center;@include border-radius(0 5px 5px 0); box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+		a{
+			display: block; width: 44px; height: 44px; line-height: 44px; cursor: pointer; @include transition(all 0.25s ease-out 0s); border-top: 1px solid #eaeaea; //rgba(#FFF, 0.4);
+			&:first-child{ border-top: none; }
+			i{
+				font-size: 18px;line-height: 46px; color: #82b440; margin: 0 0;
+			}
+			img{ max-width: 20px; margin: 0 auto; }
+		}
+		
+	}
+	#sns_cpanel_content{
+
+	}
+	.cpanel-set{
+		@include clearfix(); padding: 0 15px; height: 100%; overflow-y: scroll;
+		i.fa{ margin-right: 8px; }
+		.envato-buy{
+			margin-bottom: 15px; display: block; 
+			a{
+				background: #82b440; color: #FFF; padding: 12px 30px; text-align: center; text-transform: uppercase; display: block; @include border-radius(4px); font-weight: bold;
+				&:hover{ background: #7aa93c; color: #FFF; text-decoration: none; }
+			}
+		}
+		.qr-code{ display: block; margin-bottom: 30px; padding: 20px 20px 10px; background-color: #f1f1f1; text-align: center; text-transform: uppercase;
+			p{ margin-bottom: 5px; }
+		}
+		.demos{
+			h4{ text-transform: uppercase; //font-size: 18px; 
+			}
+			.demo{
+				margin-bottom: 10px;
+				a{  display: block;
+					img{ margin-bottom: 3px;
+						&:hover{  }
+					}
+					span{
+						font-size: 12px; text-transform: uppercase; @include transition(all 0.25s ease-out 0s);
+					}
+					&:hover{ text-decoration: none; 
+						span{ color: #7aa93c; }
+					}
+					&.img{ position: relative;
+						&:before{
+							content: ""; height: 100%; width: 100%; left: 0px; top: 0px; background: rgba(0,0,0,0.1); @include opacity(0); position: absolute; @include transition(all 0.25s ease-out 0s);
+						}
+						&:hover{
+							&:before{ @include opacity(1); }
+						}
+					}
+				}
+				&:hover{ text-decoration: none; 
+					a{ span{ color: #7aa93c; } }
+				}
+			}
+		}
+	}
+	.cpanel-bottom{
+		@include clearfix(); padding: 15px 0 0;border-top: 1px solid $base-border-color;
+	}
+}

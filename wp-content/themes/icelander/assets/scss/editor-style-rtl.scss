@@ -1,0 +1,19 @@
+/* FILE: editor-style-rtl.scss */
+
+//
+// Visual Editor core stylesheet (RTL)
+//
+// @see  Icelander_Assets::editor_stylesheets()
+//
+// @package    Icelander
+// @copyright  WebMan Design, Oliver Juhas
+//
+
+
+
+// RTL style overrides
+
+	body {
+		direction: rtl;
+		unicode-bidi: embed;
+	}

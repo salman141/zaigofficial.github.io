@@ -1,0 +1,145 @@
+/* FILE: shortcodes/__projects.scss */
+
+//
+// Posts: Projects
+//
+// For common custom post types styles see `/assets/scss/shortcodes/_posts.scss`.
+//
+
+
+
+
+
+.type-wm_projects {
+
+	.posts & {
+		border-color: inherit;
+
+
+
+		// Title
+
+			.entry-header {
+				margin: 0;
+			}
+
+			.taxonomy + .entry-header {
+				margin-top: $golden_minor / 2 +em;
+			}
+
+			.entry-subtitle {
+				@extend %sc_screen_reader_hiding;
+			}
+
+
+
+		// Summary
+
+			.entry-content {
+				display: none;
+			}
+
+
+
+		// Taxonomies
+
+			.taxonomy {
+				margin-top: 2rem;
+				text-transform: uppercase;
+				font-size: 1em - $golden_minor / 2;
+
+				&-label {
+					@extend %sc_screen_reader_hiding;
+				}
+
+			}
+
+
+
+		// Compact layout (blurred)
+
+			.portfolio-style-compact & {
+				$blur_radius: 7px;
+				$blur_overlay_opacity: .2;
+				$blur_overlay_opacity_hover: .5;
+
+				padding: 0;
+
+				.entry {
+					position: relative;
+					overflow: hidden;
+
+					&-media {
+						margin: 0;
+					}
+
+					&-summary-container {
+						position: absolute;
+						width: 100%;
+						left: 0;
+						bottom: -1px;
+						padding: 1em;
+						margin: 0;
+						background-position: 50% 100%;
+						background-size: cover;
+						color: #fff; //*
+						overflow: hidden;
+						z-index: 1;
+
+						@include responsive( map_get( $breakpoint, 'xl' ) ) {
+							padding: 2em;
+						}
+
+						&::before,
+						&::after {
+							content: '';
+							position: absolute;
+						}
+
+						&::before {
+							width: calc( 100% + #{ 2 * $blur_radius } );
+							height: calc( 100% + #{ 2 * $blur_radius } );
+							left: -$blur_radius;
+							bottom: -$blur_radius;
+							background: inherit;
+							filter: blur( #{ $blur_radius } );
+							z-index: -1;
+						}
+
+						&::after {
+							width: 100%;
+							height: 100%;
+							left: 0;
+							bottom: 0;
+							background: #000; //*
+							z-index: -1;
+							opacity: $blur_overlay_opacity;
+							transition: opacity ( $small_animation_speed +s );
+						}
+
+					}
+
+				}
+
+				&:hover,
+				&.focus {
+
+					.entry-summary-container::after {
+						opacity: $blur_overlay_opacity_hover;
+					}
+
+				}
+
+				h2, h3, a {
+					color: inherit;
+				}
+
+				.taxonomy {
+					margin-top: 0;
+				}
+
+			}
+
+	}
+
+}

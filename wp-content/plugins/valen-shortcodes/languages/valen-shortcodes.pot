@@ -1,0 +1,2024 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Valen Shortcodes\n"
+"POT-Creation-Date: 2018-12-07 14:32+0700\n"
+"PO-Revision-Date: 2018-12-07 14:32+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: valen-shortcodes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:23
+msgid "Extra class name"
+msgstr ""
+
+#: functions.php:40
+msgid "CSS Animation"
+msgstr ""
+
+#: functions.php:44 shortcodes-woo/sns_360_degree_product.php:84
+#: shortcodes-woo/sns_banner_product.php:41
+#: shortcodes-woo/sns_banner_product.php:77 shortcodes-woo/sns_products.php:121
+#: shortcodes-woo/sns_products.php:146
+#: shortcodes-woo/valen_products_ajaxtab.php:80
+#: shortcodes-woo/valen_products_ajaxtab.php:90
+#: shortcodes-woo/valen_products_ajaxtab.php:196
+#: shortcodes-woo/valen_products_ajaxtab.php:225 shortcodes/sns_carousel.php:59
+#: shortcodes/sns_carousel.php:73 shortcodes/sns_carousel.php:88
+#: shortcodes/sns_counter.php:32 shortcodes/sns_info_inline.php:44
+#: shortcodes/sns_list_posts.php:36 shortcodes/sns_list_posts.php:46
+#: shortcodes/sns_list_posts.php:65 shortcodes/sns_menu.php:73
+msgid "No"
+msgstr ""
+
+#: functions.php:45
+msgid "Top to bottom"
+msgstr ""
+
+#: functions.php:46
+msgid "Bottom to top"
+msgstr ""
+
+#: functions.php:47
+msgid "Left to right"
+msgstr ""
+
+#: functions.php:48
+msgid "Right to left"
+msgstr ""
+
+#: functions.php:49
+msgid "Appear from center"
+msgstr ""
+
+#: functions.php:51
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: functions.php:146
+msgid "Latest Products"
+msgstr ""
+
+#: functions.php:146 shortcodes-woo/valen_products_ajaxtab.php:49
+#: shortcodes-woo/valen_products_ajaxtab.php:123
+msgid "Latest"
+msgstr ""
+
+#: functions.php:148 shortcodes-woo/valen_products_ajaxtab.php:53
+#: shortcodes-woo/valen_products_ajaxtab.php:127
+msgid "Featured"
+msgstr ""
+
+#: functions.php:150 shortcodes-woo/valen_products_ajaxtab.php:51
+#: shortcodes-woo/valen_products_ajaxtab.php:125
+msgid "Top Rated"
+msgstr ""
+
+#: functions.php:152 shortcodes-woo/valen_products_ajaxtab.php:50
+#: shortcodes-woo/valen_products_ajaxtab.php:124
+msgid "Best Seller"
+msgstr ""
+
+#: functions.php:154
+msgid "Sale off"
+msgstr ""
+
+#: functions.php:154
+msgid "Sale"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:15
+msgid "SNS 360 Degree Product"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:19
+#: shortcodes-woo/sns_banner_product.php:26 shortcodes-woo/sns_cat_info.php:21
+#: shortcodes-woo/sns_comingsoon_product.php:25
+#: shortcodes-woo/sns_hot_deals.php:25 shortcodes-woo/sns_products.php:19
+#: shortcodes-woo/sns_shopby_categories.php:19 shortcodes-woo/sns_tags.php:19
+#: shortcodes-woo/valen_products_ajaxtab.php:23 shortcodes/sns_blog_page.php:20
+#: shortcodes/sns_carousel.php:22 shortcodes/sns_counter.php:21
+#: shortcodes/sns_grid_items.php:24 shortcodes/sns_info_box.php:27
+#: shortcodes/sns_info_inline.php:21 shortcodes/sns_instagram.php:18
+#: shortcodes/sns_list_posts.php:18 shortcodes/sns_loginregister.php:21
+#: shortcodes/sns_member.php:21 shortcodes/sns_menu.php:32
+#: shortcodes/sns_popup_video.php:21 shortcodes/sns_single_post.php:20
+#: shortcodes/sns_single_testimonial.php:23 shortcodes/sns_social_links.php:21
+#: shortcodes/sns_store_info.php:21 shortcodes/sns_time_countdown.php:21
+#: shortcodes/valen_postwcode.php:17
+msgid "Valen"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:20
+#: shortcodes-woo/sns_products.php:20
+msgid "WooCommerce products"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:25
+#: shortcodes-woo/sns_360_degree_product.php:28
+msgid "Product title"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:33
+msgid "Text"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:35
+msgid "<p>The description of product here.</p>"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:39
+msgid "Link for peoduct"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:46
+msgid "Total frame"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:49
+#: shortcodes-woo/sns_360_degree_product.php:57
+#: shortcodes-woo/sns_360_degree_product.php:65
+#: shortcodes-woo/sns_360_degree_product.php:73
+#: shortcodes-woo/sns_360_degree_product.php:86
+msgid "360 Degree Settings"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:54
+msgid "Image Path"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:62
+msgid "File prefix"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:70
+msgid "File extension"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:79
+msgid "Show navigation"
+msgstr ""
+
+#: shortcodes-woo/sns_360_degree_product.php:83
+#: shortcodes-woo/sns_banner_product.php:40 shortcodes-woo/sns_products.php:120
+#: shortcodes-woo/sns_products.php:147
+#: shortcodes-woo/valen_products_ajaxtab.php:79
+#: shortcodes-woo/valen_products_ajaxtab.php:89
+#: shortcodes-woo/valen_products_ajaxtab.php:195
+#: shortcodes-woo/valen_products_ajaxtab.php:226 shortcodes/sns_carousel.php:60
+#: shortcodes/sns_carousel.php:74 shortcodes/sns_carousel.php:87
+#: shortcodes/sns_list_posts.php:35 shortcodes/sns_list_posts.php:45
+#: shortcodes/sns_menu.php:74
+msgid "Yes"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:22
+msgid "SNS Banner Product"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:27
+msgid "WooCommerce banner for a product"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:31
+msgid "Banner for Product"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:37
+msgid "Want to show category of product?"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:48 shortcodes-woo/sns_cat_info.php:37
+msgid "Select category"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:60
+msgid "Select products"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:69
+msgid ""
+"You can typing id or product name to input form. And should select products "
+"are On sale and Manage stock"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:74
+msgid "Want to show price of product?"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:78
+msgid "Yes - Show default price"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:79
+msgid "Yes - Show custom price"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:85
+msgid "Want use price label?"
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:88
+msgid "Example: From/Just..."
+msgstr ""
+
+#: shortcodes-woo/sns_banner_product.php:96
+msgid "Price of product"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:17
+msgid "SNS Cat Info"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:22
+msgid "WooCommerce category info"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:26
+msgid "Resource type"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:30
+msgid "From Product Category"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:31
+msgid "From custom input"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:49
+msgid "Want to use Custom Name for category?"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:59
+msgid "Link for Category"
+msgstr ""
+
+#: shortcodes-woo/sns_cat_info.php:69
+msgid "Image for Category"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:21
+msgid "SNS Coming Soon Product"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:26
+msgid "Show info about coming soon product"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:30
+msgid "Select coming soon product"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:39
+msgid "You can typing id or product name to input form."
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:43
+msgid "Background image for box"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:48
+msgid "The date"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:51
+msgid "The format date is Y/m/d. EX: 2018/11/02"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:55 shortcodes/sns_info_box.php:207
+msgid "Description"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:60
+msgid "Want to use Post WCode to show Product Attribute"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:62
+msgid "product-attributes"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:63
+msgid "Enter alias of your Post WCode"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:68
+msgid "Pre text for Read More button"
+msgstr ""
+
+#: shortcodes-woo/sns_comingsoon_product.php:70
+msgid "Pre-order for 20%"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:21
+msgid "SNS Hot Deals"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:26
+msgid "Show hot deals"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:31 shortcodes-woo/sns_products.php:33
+#: shortcodes-woo/sns_shopby_categories.php:25 shortcodes-woo/sns_tags.php:25
+#: shortcodes-woo/valen_products_ajaxtab.php:28 shortcodes/sns_carousel.php:36
+#: shortcodes/sns_info_box.php:200 shortcodes/sns_instagram.php:24
+#: shortcodes/sns_list_posts.php:24 shortcodes/sns_list_posts.php:90
+#: shortcodes/sns_menu.php:38 shortcodes/sns_popup_video.php:44
+#: shortcodes/sns_store_info.php:26 shortcodes/valen_postwcode.php:23
+msgid "Title"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:34
+msgid "Hot Deals"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:38
+msgid "Select product deals"
+msgstr ""
+
+#: shortcodes-woo/sns_hot_deals.php:47
+msgid ""
+"You can typing id or product name to input form. And should select products "
+"are On sale and have \"Sale price dates to\""
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:15
+msgid "SNS Products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:25
+msgid "Text before Title"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:36
+msgid "New Products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:41
+msgid "Text after Title"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:50
+msgid "Select Category"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:52
+msgid "If you don't select any category, It mean is selected all category"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:57 shortcodes/sns_list_posts.php:85
+msgid "Order By"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:60
+msgid "Latest products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:61
+msgid "Best seller products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:62
+msgid "Top rated products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:63
+msgid "On sale products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:64
+msgid "Hot deal"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:65
+msgid "Featured products"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:66
+msgid "Recent review"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:73 shortcodes-woo/sns_products.php:80
+msgid "Mode View"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:77
+msgid "Gird"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:78
+msgid "List"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:85
+msgid "Grid style"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:89
+#: shortcodes-woo/valen_products_ajaxtab.php:142 shortcodes/sns_info_box.php:33
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:90
+#: shortcodes-woo/valen_products_ajaxtab.php:143 shortcodes/sns_info_box.php:34
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:91
+#: shortcodes-woo/valen_products_ajaxtab.php:144 shortcodes/sns_info_box.php:35
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:92
+#: shortcodes-woo/valen_products_ajaxtab.php:145 shortcodes/sns_info_box.php:36
+msgid "Style 4"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:102
+msgid "Thumbnail type"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:105
+msgid "Shop Thumbnail"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:106
+msgid "Valen 90x68 Thumbnail"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:107
+msgid "Valen 90x123 Thumbnail"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:117
+#: shortcodes-woo/valen_products_ajaxtab.php:192
+msgid "Use Navigation"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:127
+#: shortcodes-woo/valen_products_ajaxtab.php:206
+msgid "Navigation position"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:130
+#: shortcodes-woo/valen_products_ajaxtab.php:209
+msgid "In middle box - Default"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:131
+#: shortcodes-woo/valen_products_ajaxtab.php:210
+msgid "In top right"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:132
+#: shortcodes-woo/valen_products_ajaxtab.php:211
+msgid "In top center"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:143
+#: shortcodes-woo/valen_products_ajaxtab.php:222
+msgid "Use Paging"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:153
+msgid "Product number limit"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:160
+#: shortcodes-woo/valen_products_ajaxtab.php:258
+msgid "Number Row per Column"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:167 shortcodes/sns_instagram.php:117
+#: shortcodes/sns_list_posts.php:110
+msgid "Number Column display screen Desktop"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:168 shortcodes-woo/sns_products.php:176
+#: shortcodes-woo/sns_products.php:184 shortcodes-woo/sns_products.php:192
+#: shortcodes-woo/sns_products.php:200 shortcodes-woo/sns_products.php:208
+#: shortcodes-woo/valen_products_ajaxtab.php:265
+#: shortcodes-woo/valen_products_ajaxtab.php:273
+#: shortcodes-woo/valen_products_ajaxtab.php:281
+#: shortcodes-woo/valen_products_ajaxtab.php:289
+#: shortcodes-woo/valen_products_ajaxtab.php:297
+#: shortcodes/sns_carousel.php:108 shortcodes/sns_carousel.php:120
+#: shortcodes/sns_carousel.php:132 shortcodes/sns_carousel.php:144
+#: shortcodes/sns_carousel.php:156
+msgid "Column settings"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:175
+msgid "Number Column display screen Laptop"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:183 shortcodes/sns_instagram.php:128
+#: shortcodes/sns_list_posts.php:121
+msgid "Number Column display screen Tablet Landscape"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:191 shortcodes/sns_instagram.php:139
+#: shortcodes/sns_list_posts.php:132
+msgid "Number Column display screen Tablet Portrait"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:199 shortcodes/sns_instagram.php:150
+#: shortcodes/sns_list_posts.php:143
+msgid "Number Column display Mobile Landscape"
+msgstr ""
+
+#: shortcodes-woo/sns_products.php:207 shortcodes/sns_instagram.php:161
+#: shortcodes/sns_list_posts.php:154
+msgid "Number Column display screen Mobile Portrait"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:15
+msgid "SNS Shop by Categories"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:20
+msgid "Display categories shop"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:28
+msgid "Your Main Category Name"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:32
+msgid "Image for this box - main category"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:39
+msgid "Select Category List"
+msgstr ""
+
+#: shortcodes-woo/sns_shopby_categories.php:44
+msgid "Want to use link View All?"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:15
+msgid "SNS Tags"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:20
+msgid "Display tags of Products/Post"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:32
+msgid "Tags Display"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:35
+msgid "For select"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:36
+msgid "Query for limit"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:41
+msgid "Tag Taxonomy"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:44
+msgid "Post"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:45
+msgid "Product"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:54
+msgid "Tag number limit"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:57
+msgid "The number to query tags for display"
+msgstr ""
+
+#: shortcodes-woo/sns_tags.php:66
+msgid "Tag List"
+msgstr ""
+
+#: shortcodes-woo/templates/product-tab/tab-content.php:76
+#: shortcodes-woo/templates/product-tab/tab-content.php:78
+msgid "Load more item"
+msgstr ""
+
+#: shortcodes-woo/templates/product-tab/tab-content.php:77
+msgid "Loading..."
+msgstr ""
+
+#: shortcodes-woo/templates/product-tab/tab-content.php:83
+#: shortcodes-woo/templates/product-tab/tab-content3.php:74
+#: shortcodes-woo/templates/product-tab/tab-content4.php:84
+#: shortcodes-woo/templates/product-tab/tab-content5.php:63
+#: shortcodes-woo/templates/sns_products.php:77
+msgid "There are no products matching to show"
+msgstr ""
+
+#: shortcodes-woo/templates/product-tab/tab-items-cat.php:6
+#: shortcodes-woo/templates/product-tab/tab-items-cat.php:42
+msgid "All"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_cat_info.php:21
+msgid "You should enter title"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_cat_info.php:35
+msgid "Products"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:40
+#: shortcodes/templates/sns_time_countdown.php:24
+msgid "Days"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:41
+#: shortcodes/templates/sns_time_countdown.php:25
+msgid "Hours"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:42
+#: shortcodes/templates/sns_time_countdown.php:26
+msgid "Mins"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:43
+#: shortcodes/templates/sns_time_countdown.php:27
+msgid "Secs"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:49
+msgid "Coming soon"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_comingsoon_product.php:69
+#: shortcodes/templates/sns_list_posts.php:87
+#: shortcodes/templates/sns_single_post.php:38
+msgid "Read more"
+msgstr ""
+
+#: shortcodes-woo/templates/sns_shopby_categories.php:35
+msgid "View all"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:19
+#: shortcodes-woo/valen_products_ajaxtab.php:24
+msgid "Products Ajax Tab"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:31
+msgid "The title"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:36
+msgid "Tab by?"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:40
+#: shortcodes-woo/valen_products_ajaxtab.php:120
+msgid "Order by"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:41
+msgid "Category"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:46
+#: shortcodes-woo/valen_products_ajaxtab.php:64
+msgid "Select tab to display"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:52
+#: shortcodes-woo/valen_products_ajaxtab.php:126
+msgid "Special"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:54
+#: shortcodes-woo/valen_products_ajaxtab.php:128
+msgid "Recent Review"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:76
+msgid "Want to show total product in category?"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:86
+msgid "Want to show tab All Category?"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:99
+msgid "Background image(or banner) for each tab content"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:101
+msgid ""
+"Drag and drop image to sort oder. The oder of image is the same with the "
+"oder of tab above"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:110
+msgid "Choice categories"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:112
+msgid "If you dont choice, That mean it will query all category"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:138
+msgid "Product style"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:153
+msgid "No Effect"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:154
+msgid "fadeIn"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:155
+msgid "fadeInUp"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:156
+msgid "fadeInDown"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:157
+msgid "fadeInRight"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:158
+msgid "fadeInLeft"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:159
+msgid "bounceIn"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:160
+msgid "bounceInUp"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:161
+msgid "bounceInDown"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:162
+msgid "bounceInLeft"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:163
+msgid "bounceInRight"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:164
+msgid "zoomIn"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:165
+msgid "zoomInUp"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:166
+msgid "zoomInDown"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:167
+msgid "zoomInLeft"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:168
+msgid "zoomInRight"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:171
+msgid "Effect to show product in tab"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:177
+msgid "Template for each tab content"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:181
+#: shortcodes/sns_instagram.php:80
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:182
+msgid "Grid and Load more button"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:183
+msgid "Carousel - Special template 1"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:184
+msgid "Carousel - Special template 2"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:185
+msgid "Carousel - Special template 3"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:235
+msgid "Number product limit for each tab"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:238
+msgid "16"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:247
+msgid "Number product will show more with each click load more button"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:264
+msgid "Number product per column to display on Desktop"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:268
+msgid "5"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:272
+msgid "Number product per column to display on Tablet Landscape"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:276
+msgid "3"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:280
+msgid "Number product per column to display on Tablet Portrait"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:284
+#: shortcodes-woo/valen_products_ajaxtab.php:292
+msgid "2"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:288
+msgid "Number product per column to display on Mobile Landscape"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:296
+msgid "Number product per column to display on Nobile Portrait"
+msgstr ""
+
+#: shortcodes-woo/valen_products_ajaxtab.php:300 shortcodes/sns_carousel.php:96
+#: shortcodes/sns_carousel.php:107 shortcodes/sns_carousel.php:119
+#: shortcodes/sns_carousel.php:131 shortcodes/sns_carousel.php:143
+#: shortcodes/sns_carousel.php:155 shortcodes/sns_grid_items.php:37
+#: shortcodes/sns_grid_items.php:44 shortcodes/sns_grid_items.php:51
+#: shortcodes/sns_grid_items.php:58 shortcodes/sns_grid_items.php:65
+msgid "1"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:16
+msgid "SNS Blog Page"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:21
+msgid "To create blog page with some style"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:27
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:28
+msgid "If you dont sellect category, the default is sellected all category"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:34
+msgid "Blog Style"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:37
+msgid "Blog Default"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:38
+msgid "Blog List"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:46
+msgid "Page Navigation"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:49 shortcodes/sns_info_inline.php:28
+#: shortcodes/sns_info_inline.php:120 shortcodes/sns_menu.php:55
+msgid "Default"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:50
+msgid "Ajax click load more"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:51
+msgid "Ajax auto load more"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:53
+msgid "Choose Type of navigation."
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:58
+msgid "Number post with each load more"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:69
+msgid "Post per pages"
+msgstr ""
+
+#: shortcodes/sns_blog_page.php:76
+msgid "Excerpt Length"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:19
+msgid "SNS Carousel"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:23
+msgid "Carousel for other shortcodes"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:44
+msgid "Slider Type"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:47
+msgid "Horizontal"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:48
+msgid "Horizontal center mode"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:49
+msgid "Horizontal Syncing with pagging"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:50
+msgid "Vertical"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:56
+msgid "Show Navigation"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:70
+msgid "Show Paging"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:84
+msgid "Auto play"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:94
+msgid "Number row on column"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:105
+msgid "Number items on Desktop"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:117
+msgid "Number items on Tablet Landscape"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:128
+msgid "Number items on Tablet Portrait"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:141
+msgid "Number items on Mobile Landscape"
+msgstr ""
+
+#: shortcodes/sns_carousel.php:153
+msgid "Number items on Mobile Portrait"
+msgstr ""
+
+#: shortcodes/sns_counter.php:14
+msgid "SNS Counter"
+msgstr ""
+
+#: shortcodes/sns_counter.php:22
+msgid "Display box count to"
+msgstr ""
+
+#: shortcodes/sns_counter.php:27 shortcodes/sns_info_inline.php:42
+msgid "Use icon?"
+msgstr ""
+
+#: shortcodes/sns_counter.php:30
+msgid "Icon font"
+msgstr ""
+
+#: shortcodes/sns_counter.php:31 shortcodes/sns_info_box.php:58
+msgid "Image"
+msgstr ""
+
+#: shortcodes/sns_counter.php:38 shortcodes/sns_info_box.php:43
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/sns_counter.php:40 shortcodes/sns_info_box.php:46
+#: shortcodes/sns_info_inline.php:45
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/sns_counter.php:41 shortcodes/sns_info_box.php:51
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/sns_counter.php:44 shortcodes/sns_info_box.php:54
+#: shortcodes/sns_info_inline.php:49
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/sns_counter.php:52 shortcodes/sns_counter.php:69
+#: shortcodes/sns_info_box.php:67 shortcodes/sns_info_box.php:82
+#: shortcodes/sns_info_box.php:98 shortcodes/sns_info_box.php:114
+#: shortcodes/sns_info_box.php:130 shortcodes/sns_info_box.php:145
+#: shortcodes/sns_info_inline.php:53 shortcodes/sns_info_inline.php:68
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/sns_counter.php:65 shortcodes/sns_counter.php:81
+#: shortcodes/sns_info_box.php:78 shortcodes/sns_info_box.php:94
+#: shortcodes/sns_info_box.php:110 shortcodes/sns_info_box.php:126
+#: shortcodes/sns_info_box.php:157 shortcodes/sns_info_inline.php:64
+#: shortcodes/sns_info_inline.php:80 shortcodes/sns_store_info.php:64
+#: shortcodes/sns_store_info.php:84 shortcodes/sns_store_info.php:104
+#: shortcodes/sns_store_info.php:124
+msgid "Select icon from library."
+msgstr ""
+
+#: shortcodes/sns_counter.php:86 shortcodes/sns_info_box.php:162
+msgid "Color for icon"
+msgstr ""
+
+#: shortcodes/sns_counter.php:95
+msgid "Icon image"
+msgstr ""
+
+#: shortcodes/sns_counter.php:104 shortcodes/sns_info_box.php:171
+msgid "Font size for icon"
+msgstr ""
+
+#: shortcodes/sns_counter.php:106 shortcodes/sns_info_box.php:178
+msgid "It's font-size for icon you sellected, example: 24px"
+msgstr ""
+
+#: shortcodes/sns_counter.php:115
+msgid "Value to Count"
+msgstr ""
+
+#: shortcodes/sns_counter.php:123
+msgid "Color for Value"
+msgstr ""
+
+#: shortcodes/sns_counter.php:128
+msgid "Font size for Value"
+msgstr ""
+
+#: shortcodes/sns_counter.php:130
+msgid "It's font-size for Value, example: 18px"
+msgstr ""
+
+#: shortcodes/sns_counter.php:134
+msgid "Unit"
+msgstr ""
+
+#: shortcodes/sns_counter.php:140
+msgid "Counter Title"
+msgstr ""
+
+#: shortcodes/sns_counter.php:142
+msgid "Your Title Goes Here..."
+msgstr ""
+
+#: shortcodes/sns_counter.php:147
+msgid "Color for Title"
+msgstr ""
+
+#: shortcodes/sns_counter.php:152
+msgid "Font size for Title"
+msgstr ""
+
+#: shortcodes/sns_counter.php:154
+msgid "It's font-size for Title, example: 12px"
+msgstr ""
+
+#: shortcodes/sns_counter.php:158
+msgid "From to count"
+msgstr ""
+
+#: shortcodes/sns_counter.php:161
+msgid "The number the element should start at, example: 0"
+msgstr ""
+
+#: shortcodes/sns_counter.php:165
+msgid "Speed to count"
+msgstr ""
+
+#: shortcodes/sns_counter.php:168
+msgid ""
+"How long it should take to count between the target numbers, example: 900"
+msgstr ""
+
+#: shortcodes/sns_counter.php:172
+msgid "Interval to count"
+msgstr ""
+
+#: shortcodes/sns_counter.php:175
+msgid "How often the element should be updated, example: 10"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:19
+msgid "SNS Grid Items"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:25
+msgid "A grid contain items"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:35
+msgid "Number column/row on Desktop"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:42
+msgid "Number column/row on Tablet Landscape"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:48
+msgid "Number column/row on Tablet Portrait"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:56
+msgid "Number column/row on Mobile Landscape"
+msgstr ""
+
+#: shortcodes/sns_grid_items.php:63
+msgid "Number column/row on Mobile Portrait"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:20
+msgid "SNS Info Box"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:28
+msgid "Box contain: icon, title, description"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:38
+msgid "Box style"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:45
+msgid "Media"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:47 shortcodes/sns_info_inline.php:46
+msgid "Flaticon"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:48
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:49
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:50
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:173
+msgid "22px"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:182
+msgid "Max width of icon"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:184
+msgid "It's max-width style for icon, example: 40px"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:193
+msgid "Custom Link"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:195 shortcodes/sns_info_inline.php:109
+msgid "Enter the  link. Do't forget to include http:// "
+msgstr ""
+
+#: shortcodes/sns_info_box.php:196 shortcodes/sns_info_inline.php:114
+msgid "http://"
+msgstr ""
+
+#: shortcodes/sns_info_box.php:202 shortcodes/sns_popup_video.php:46
+msgid "Your Title Here ..."
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:14
+msgid "SNS Info Inline"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:22
+msgid "Contain: icon, title, link, ... and display inline"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:26 shortcodes/sns_single_testimonial.php:34
+#: shortcodes/sns_social_links.php:33 shortcodes/sns_store_info.php:33
+#: shortcodes/sns_time_countdown.php:34
+msgid "Style"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:29
+msgid "Social"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:30
+msgid "Social Rounded"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:84
+msgid "Use label?"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:86
+msgid "Use label in content"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:90
+msgid "Label"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:92
+msgid "Your label here ..."
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:101
+msgid "Use link?"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:103
+msgid "Use link in content"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:107
+msgid "Link"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:118
+msgid "Link type"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:121
+msgid "Use mailto:"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:122
+msgid "Use tel:"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:132
+msgid "Link target"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:134
+msgid "Same window"
+msgstr ""
+
+#: shortcodes/sns_info_inline.php:135
+msgid "New window"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:14
+msgid "SNS Instagram"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:19
+msgid "Show instagram feed"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:26
+msgid "Instagram"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:31
+msgid "Dispplay type"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:35
+msgid "New feed"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:36
+msgid "By tag"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:43
+msgid "Tag name"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:45
+msgid "sns_valen"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:54
+msgid "User id"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:56
+msgid "5922978930"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:66
+msgid "Access token"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:68
+msgid "5922978930.0f5c892.2cde8aa05686432e96d4be192bd5dcd9"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:70
+msgid "How to get: User id and Access token http://domain.com"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:76
+msgid "Dispplay style"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:79
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:87
+msgid "Photo size"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:90
+msgid "Standard"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:91
+msgid "Low"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:92
+msgid "Thumbnail"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:99
+msgid "Number limit"
+msgstr ""
+
+#: shortcodes/sns_instagram.php:106
+msgid "Number Column on row"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:14
+msgid "SNS List Post"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:19
+msgid "Show List Posts"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:26
+msgid "Latest News"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:31
+msgid "Want to show date?"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:41
+msgid "Want to show author?"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:52
+msgid "Template style"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:55 shortcodes/sns_single_testimonial.php:37
+#: shortcodes/sns_time_countdown.php:37
+msgid "Style1"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:56
+msgid "Style2 - Carousel"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:62
+msgid "Want to choose thumbnail"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:66
+msgid "valen_blog_tiny_thumb"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:67
+msgid "valen_blog_small_thumb"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:68
+msgid "valen_blog_list_thumb"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:69
+msgid "valen_blog_special_thumb"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:70
+msgid "valen_blog_default_thumb"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:71
+msgid "WP thumbnail"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:72
+msgid "WP medium"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:73
+msgid "WP large"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:79
+msgid "Posts number limit"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:89 shortcodes/sns_time_countdown.php:26
+msgid "Date"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:91
+msgid "author"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:92
+msgid "Random"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:93
+msgid "Comment Count"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:94
+msgid "Menu Order"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:99
+msgid "Sort order"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:103
+msgid "ASC"
+msgstr ""
+
+#: shortcodes/sns_list_posts.php:104
+msgid "DESC"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:14
+msgid "SNS Login and Register"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:22
+msgid "Contain login, register link, welcome text,...."
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:26
+msgid "Want to use welcome text"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:29
+msgid "Example: Hello/Hi/Welcome..."
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:33
+msgid "Login text link"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:35
+msgid "Example: Login"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:36
+msgid "Login"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:40
+msgid "Want to use seperator between Login and Register?"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:42
+msgid "|"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:43
+msgid "Example: or"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:47
+msgid "Register text link"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:49
+msgid "Example: Sign up"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:50
+msgid "Register"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:54
+msgid "Logout text link"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:56
+msgid "Example: Logout"
+msgstr ""
+
+#: shortcodes/sns_loginregister.php:57
+msgid "Logout"
+msgstr ""
+
+#: shortcodes/sns_member.php:14
+msgid "SNS Member"
+msgstr ""
+
+#: shortcodes/sns_member.php:22
+msgid "Box contain member info"
+msgstr ""
+
+#: shortcodes/sns_member.php:26
+msgid "Avartar"
+msgstr ""
+
+#: shortcodes/sns_member.php:31
+msgid "Avartar style"
+msgstr ""
+
+#: shortcodes/sns_member.php:42
+msgid "Info style"
+msgstr ""
+
+#: shortcodes/sns_member.php:52
+msgid "Link to member"
+msgstr ""
+
+#: shortcodes/sns_member.php:57
+msgid "Member name"
+msgstr ""
+
+#: shortcodes/sns_member.php:63
+msgid "Member role"
+msgstr ""
+
+#: shortcodes/sns_member.php:69
+msgid "Short description"
+msgstr ""
+
+#: shortcodes/sns_member.php:74 shortcodes/sns_social_links.php:55
+msgid "Twitter link"
+msgstr ""
+
+#: shortcodes/sns_member.php:80 shortcodes/sns_social_links.php:43
+msgid "Facebook link"
+msgstr ""
+
+#: shortcodes/sns_member.php:86 shortcodes/sns_social_links.php:73
+msgid "Instagram link"
+msgstr ""
+
+#: shortcodes/sns_member.php:92
+msgid "linkedin link"
+msgstr ""
+
+#: shortcodes/sns_member.php:98
+msgid "youtube link"
+msgstr ""
+
+#: shortcodes/sns_member.php:104
+msgid "google link"
+msgstr ""
+
+#: shortcodes/sns_member.php:110
+msgid "behance link"
+msgstr ""
+
+#: shortcodes/sns_member.php:116
+msgid "dribbble link"
+msgstr ""
+
+#: shortcodes/sns_member.php:122
+msgid "pinterest link"
+msgstr ""
+
+#: shortcodes/sns_menu.php:25
+msgid "SNS Menu"
+msgstr ""
+
+#: shortcodes/sns_menu.php:33
+msgid "Display menu with our style ..."
+msgstr ""
+
+#: shortcodes/sns_menu.php:40
+msgid "Your menu"
+msgstr ""
+
+#: shortcodes/sns_menu.php:45
+msgid "Menu"
+msgstr ""
+
+#: shortcodes/sns_menu.php:48
+msgid ""
+"Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
+"create new menu."
+msgstr ""
+
+#: shortcodes/sns_menu.php:48
+msgid "Select menu to display."
+msgstr ""
+
+#: shortcodes/sns_menu.php:56
+msgid "Inline menu"
+msgstr ""
+
+#: shortcodes/sns_menu.php:57
+msgid "Vertical menu"
+msgstr ""
+
+#: shortcodes/sns_menu.php:59
+msgid "Menu style"
+msgstr ""
+
+#: shortcodes/sns_menu.php:65
+msgid "Menu class"
+msgstr ""
+
+#: shortcodes/sns_menu.php:67
+msgid "nav navbar-nav"
+msgstr ""
+
+#: shortcodes/sns_menu.php:76
+msgid "Want to use responsive menu?"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:14
+msgid "SNS Popup Video"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:22
+msgid "Popup video"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:26
+msgid "Video link"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:28
+msgid "You can use video url from Youtube, Vimeo"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:33
+msgid "Background image for video"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:38
+msgid "Height for wrap"
+msgstr ""
+
+#: shortcodes/sns_popup_video.php:40
+msgid "680px"
+msgstr ""
+
+#: shortcodes/sns_single_post.php:16
+msgid "SNS Single Post"
+msgstr ""
+
+#: shortcodes/sns_single_post.php:21
+msgid "Show single post"
+msgstr ""
+
+#: shortcodes/sns_single_post.php:25
+msgid "Select post"
+msgstr ""
+
+#: shortcodes/sns_single_post.php:27
+msgid "Select posts, pages, etc. by title."
+msgstr ""
+
+#: shortcodes/sns_single_post.php:34
+msgid "Want use custom image for that post above?"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:16
+msgid "SNS Single Testimonial"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:24
+msgid "Display single Testimonial"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:28
+msgid "Testimonial content"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:38
+#: shortcodes/sns_time_countdown.php:38
+msgid "Style2"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:43
+msgid "Author avatar"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:49
+msgid "Author name"
+msgstr ""
+
+#: shortcodes/sns_single_testimonial.php:56
+msgid "Author position"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:14
+msgid "SNS Social Links"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:22
+msgid "Display link to your social links"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:26
+msgid "Label for Follow us"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:28
+msgid "Follow us on:"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:36
+msgid "Rounded"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:37
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:38
+msgid "Simple"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:49
+msgid "Goolgle Plus link"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:61
+msgid "Youtube link"
+msgstr ""
+
+#: shortcodes/sns_social_links.php:67
+msgid "Pinterest link"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:14
+msgid "SNS Store Info"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:22
+msgid "Store info: Address, Phone, Email, ..."
+msgstr ""
+
+#: shortcodes/sns_store_info.php:36
+msgid "Show label"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:37
+msgid "Show icon"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:38
+msgid "Show icon and label"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:43
+msgid "Logo Store"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:48
+msgid "Short Intro"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:53
+msgid "Icon for Address"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:68
+msgid "Address"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:73
+msgid "Icon for Phone Number"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:88
+msgid "Phone Number"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:93
+msgid "Icon for Mobile Number"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:108
+msgid "Mobile Number"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:113
+msgid "Icon for Email"
+msgstr ""
+
+#: shortcodes/sns_store_info.php:128
+msgid "Email 1"
+msgstr ""
+
+#: shortcodes/sns_time_countdown.php:14
+msgid "SNS Time Count Down"
+msgstr ""
+
+#: shortcodes/sns_time_countdown.php:22
+msgid "Show time count down"
+msgstr ""
+
+#: shortcodes/sns_time_countdown.php:29
+msgid "The format date is Y/m/d. EX: 2017/10/02"
+msgstr ""
+
+#: shortcodes/sns_time_countdown.php:39
+msgid "Style3"
+msgstr ""
+
+#: shortcodes/templates/sns_carousel.php:18
+msgid "Next"
+msgstr ""
+
+#: shortcodes/templates/sns_carousel.php:19
+msgid "Prev"
+msgstr ""
+
+#: shortcodes/templates/sns_instagram.php:27
+msgid "Your setting incorrect!"
+msgstr ""
+
+#: shortcodes/templates/sns_instagram.php:74
+msgid "Please select Display style"
+msgstr ""
+
+#: shortcodes/templates/sns_list_posts.php:66
+msgid "on "
+msgstr ""
+
+#: shortcodes/templates/sns_list_posts.php:74
+msgid "by"
+msgstr ""
+
+#: shortcodes/templates/sns_list_posts.php:83
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/templates/sns_loginregister.php:24
+msgid "Want to"
+msgstr ""
+
+#: shortcodes/templates/sns_menu.php:36
+msgid "Please select menu for shortcode SNS Vertical Menu"
+msgstr ""
+
+#: shortcodes/templates/sns_popup_video.php:29
+msgid "click here to play"
+msgstr ""
+
+#: shortcodes/templates/sns_single_post.php:35
+msgid "By"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:17
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:17
+msgid "Facebook"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:20
+msgid "Follow us on Google Plus"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:20
+msgid "Google Plus"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:23
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:23
+msgid "Twitter"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:26
+msgid "Follow us on Youtube"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:26
+msgid "Youtube"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:29
+msgid "Follow us on Pinterest"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:29
+msgid "Pinterest"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:32
+msgid "Follow us on Instagran"
+msgstr ""
+
+#: shortcodes/templates/sns_social_links.php:32
+msgid "Instagran"
+msgstr ""
+
+#: shortcodes/templates/sns_store_info.php:12
+msgid "Tel: "
+msgstr ""
+
+#: shortcodes/templates/sns_store_info.php:13
+msgid "Mobile: "
+msgstr ""
+
+#: shortcodes/templates/sns_store_info.php:14
+msgid "Add: "
+msgstr ""
+
+#: shortcodes/templates/sns_store_info.php:15
+msgid "Email: "
+msgstr ""
+
+#: shortcodes/templates/sns_store_info.php:36
+msgid "Store Logo"
+msgstr ""
+
+#: shortcodes/valen_postwcode.php:13
+msgid "Post WCode"
+msgstr ""
+
+#: shortcodes/valen_postwcode.php:18
+msgid "Display somes shortcodes via slug of Post WCode"
+msgstr ""
+
+#: shortcodes/valen_postwcode.php:30
+msgid "Slug of Post WCode"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Valen Shortcodes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://snstheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provide Shortcodes for Valen theme. This plugin just work for WPBakery "
+"Visual Composer."
+msgstr ""

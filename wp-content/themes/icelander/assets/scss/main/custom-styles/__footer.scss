@@ -1,0 +1,81 @@
+/* FILE: main/custom-styles/__footer.scss */
+
+//
+// Site footer colors
+//
+
+
+
+
+
+.site-footer,
+.#{$special_color_class_prefix}footer,
+.#{$special_color_class_prefix}footer > .fl-row-content-wrap,
+.#{$special_color_class_prefix}footer > .fl-col-content {
+	@extend %site_footer_colors;
+}
+
+
+
+// Footer background image
+
+	.site-footer {
+
+		&::before {
+			background-image: url('../images/footer/footer.jpg');
+			background-position: 50% 50%;
+			background-repeat: repeat;
+			background-attachment: scroll;
+			background-size: cover;
+			opacity: .05;
+			background-image: var(--footer_image);
+			background-position: var(--footer_image_position);
+			background-repeat: var(--footer_image_repeat);
+			background-attachment: var(--footer_image_attachment);
+			background-size: var(--footer_image_size);
+			opacity: var(--footer_image_opacity);
+		}
+
+		&.is-customize-preview::before {
+			background-repeat: inherit; //*
+			background-attachment: inherit; //*
+		}
+
+	}
+
+
+
+// Footer accent colors are actually footer headings colors
+
+	.site-footer {
+
+		#{$accent_color_elements} {
+			text-shadow: none; //*
+			background-color: map_get( $customize_options, 'color_footer_headings' );
+			color: map_get( $customize_options, 'color_footer_background' );
+			background-color: var(--color_footer_headings);
+			color: var(--color_footer_background);
+		}
+
+		.button,
+		button,
+		[type="button"],
+		[type="reset"],
+		[type="submit"] {
+			text-shadow: none; //*
+
+			@include haf() {
+				background-color: map_get( $customize_options, 'color_footer_headings' );
+				color: map_get( $customize_options, 'color_footer_background' );
+				background-color: var(--color_footer_headings);
+				color: var(--color_footer_background);
+			}
+
+		}
+
+		mark,
+		.highlight {
+			box-shadow: none; //*
+		}
+
+	}

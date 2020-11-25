@@ -1,0 +1,6 @@
+2020-11-23T08:10:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\Xampp\htdocs\ZaigOfficial\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Giving_Feedback_Notes.php on line 10
+
+2020-11-23T08:11:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\Xampp\htdocs\ZaigOfficial\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Products\Stats\Controller.php on line 10
+
+2020-11-23T08:12:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\Xampp\htdocs\ZaigOfficial\wp-includes\wp-db.php on line 2033
+

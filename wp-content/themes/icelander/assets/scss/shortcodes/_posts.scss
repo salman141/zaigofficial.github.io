@@ -1,0 +1,121 @@
+/* FILE: shortcodes/_posts.scss */
+
+//
+// Posts / Custom Posts
+//
+
+
+
+
+
+.wm-posts {
+
+	&-post {
+
+		.wm-posts-item {
+			display: flex;
+			position: relative;
+
+			.entry {
+				flex: 0 1 auto;
+				display: flex;
+				flex-direction: column;
+				float: none;
+				width: 100%;
+				margin: 0;
+			}
+
+		}
+
+	}
+
+	.entry {
+		margin-bottom: 0;
+	}
+
+	.type-post {
+		border-color: inherit;
+	}
+
+	.taxonomy a {
+		text-decoration: none;
+		color: inherit;
+
+		@include haf() {
+			text-decoration: underline;
+		}
+
+	}
+
+}
+
+
+
+// Compact layout
+
+	// Default WordPress posts
+
+		.compact-layout .type-post {
+			border-width: 0;
+			padding: 0;
+
+			.entry-media {
+				display: none;
+			}
+
+			.entry-meta {
+
+				&,
+				.fl-builder & {
+					padding: 0;
+					margin-top: 0;
+					margin-bottom: $golden_major +rem;
+					text-align: inherit;
+					border-width: 0;
+				}
+
+			}
+
+		}
+
+
+
+// Custom post types
+
+	// Imports
+
+		@import '_projects';
+
+		@import '_staff';
+
+
+
+	// Common styles
+
+		// No margin
+
+			.wm-posts-wm_projects,
+			.wm-posts-wm_staff {
+
+				.no-margin {
+
+					.wm-posts-item {
+						padding: 1px;
+					}
+
+				}
+
+			}
+
+
+
+		// In loop
+
+			.wm-posts-wm_projects,
+			.wm-posts-wm_staff {
+
+				.wm-posts-item {
+					display: block;
+				}
+
+			}

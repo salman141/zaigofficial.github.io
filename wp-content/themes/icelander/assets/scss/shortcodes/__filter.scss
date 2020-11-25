@@ -1,0 +1,71 @@
+/* FILE: shortcodes/__filter.scss */
+
+//
+// Filter styles
+//
+
+
+
+
+
+.wm-filter {
+
+	ul {
+		margin: 0 0 ( $golden * 3em );
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 ( $golden_major / 2 +em );
+		list-style: none;
+
+		a {
+			font-weight: inherit;
+		}
+
+	}
+
+	a {
+		display: inline-block;
+		margin: ( $golden_minor / 2 +em ) 0;
+		padding: ( $golden_minor / 2 +em ) 1em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em - $golden_minor / 4;
+		color: inherit;
+		border-width: 2px;
+		border-style: solid;
+		border-color: currentColor;
+	}
+
+	a:hover,
+	.active a,
+	.is-active a {
+		border-style: solid;
+		opacity: 1;
+	}
+
+	.link {
+
+		&-back {
+			border-color: inherit;
+		}
+
+		&-all {
+			font-weight: 700;
+		}
+
+		&-parent::before {
+			@extend %sc_genericon;
+			@include rtl_property( content, '\f430', '\f429' ); // {{RTL}}
+			margin-#{$right}: $golden_minor +em; // {{RTL}}
+		}
+
+	}
+
+	.count {
+		display: none;
+	}
+
+}
